@@ -1,0 +1,14 @@
+.env
+.DS_Store
+__pycache__/
+
+# 上流リポジトリ（venv・モデル重み込みで 6GB）。README の手順で clone する
+VoxCPM/
+
+# 生成物・中間ファイル
+outputs/
+work/*
+!work/ref/
+work/ref/*
+!work/ref/reference.wav
+!work/ref/reference.txt
